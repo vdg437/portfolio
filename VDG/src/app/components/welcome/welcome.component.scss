@@ -3,6 +3,10 @@
 // $accent1: #ff006c;
 // $accent2: #ffbf0b;
 
+.p-10 {
+    padding: 10px
+}
+
 .welcome {
     background: #fff;
     height: 100vh;
@@ -15,11 +19,6 @@
 
 .welcome img {
     height: 70%;
-}
-
-.btn-warning {
-    background-color: #ffac1d;
-    color: #fff;
 }
 
 .btn-gradient {
@@ -40,17 +39,18 @@
     z-index: 0;
 }
 
+.center {
+    position: absolute;
+    left: 400px;
+    z-index: 0;
+}
+
 .to-front {
     z-index: 99;
 }
 
-.container-wrapper {
-    width: 600px;
-}
-
 .experience {
     background-color: #f9f0eb;
-    margin-bottom: 100px;
 }
 
 /* Timeline holder */
@@ -112,8 +112,6 @@ li.timeline-item::before {
 }
 
 .specialisation .card {
-    margin-right: 15px;
-    margin-top: 15px;
     height: 150px;
     width: 200px;
     overflow: hidden;
@@ -126,18 +124,26 @@ li.timeline-item::before {
     width: 50%;
 }
 
-.about {
-    background-color: #f9f0eb;
-    padding-bottom: 50px;
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
 }
 
-.break .card {
-    position: relative;
-    top: -50%;
-    width: 60%;
-    padding: 25px;
-    box-shadow: 0 0 4px 1px #ddd;
-    background: linear-gradient(90deg, #c06b78, #d97a7a);
+.about {
+    background-color: #f9f0eb;
+    overflow: hidden;
+}
+
+.break {
+    padding: 25px 15px;
+    background: linear-gradient(90deg, #e27f7f, #d97a7a);
+}
+
+.socials {
+    padding: 25px 0;
     color: white;
 }
 
