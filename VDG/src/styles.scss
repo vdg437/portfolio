@@ -1,3 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import "./../node_modules/bootstrap/scss/functions";
+@import "./../node_modules/bootstrap/scss/variables";
+@import "./../node_modules/bootstrap/scss/bootstrap";
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+$accent2: #8a4c55;
+$accent1: #d97a7a;
+$primary: #ffac1d;
+
+body {
+    height: 100%;
+    background-color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+section {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.accent2 {
+    color: $accent2 !important;
+}
+
+.accent1 {
+    color: $accent1 !important;
+}
